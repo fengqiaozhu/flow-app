@@ -8,6 +8,7 @@
 
 ## 2. 核心规范与文档
 开发过程中应严格遵守以下设计与架构文档：
+- **产品需求文档 (PRD)**: [`PRD.md`](./PRD.md)
 - **MVP 设计方案**: [`.docs/2026-03-12-flow-mvp-design.md`](./.docs/2026-03-12-flow-mvp-design.md)
 - **UI/UX 详细设计**: [`.docs/2026-03-16-flow-ui-ux-design.md`](./.docs/2026-03-16-flow-ui-ux-design.md)
 - **HarmonyOS 6.0 设计准则**:
