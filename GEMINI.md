@@ -9,6 +9,7 @@
 ## 2. 核心规范与文档
 开发过程中应严格遵守以下设计与架构文档：
 - **产品需求文档 (PRD)**: [`PRD.md`](./PRD.md)
+- **变更日志 (Changelog)**: [`.docs/CHANGELOG.md`](./.docs/CHANGELOG.md)
 - **MVP 设计方案**: [`.docs/2026-03-12-flow-mvp-design.md`](./.docs/2026-03-12-flow-mvp-design.md)
 - **UI/UX 详细设计**: [`.docs/2026-03-16-flow-ui-ux-design.md`](./.docs/2026-03-16-flow-ui-ux-design.md)
 - **HarmonyOS 6.0 设计准则**:
@@ -19,6 +20,9 @@
 - **HarmonyOS 设计规范**: 遵守原生 6.0 的自适应布局、沉浸式导航及动效准则。
 
 ## 3. 开发规范 (Development Conventions)
+- **变更管理 (Change Management)**: 
+    - 当发生大的项目变动并执行 `git commit` 时，必须同步更新项目关键文档（PRD, UI/UX Specs）。
+    - 必须在 [`.docs/CHANGELOG.md`](./.docs/CHANGELOG.md) 中记录变更内容。
 - **UI 开发**: 
     - 优先使用 `Navigation` 组件及其 `Auto` 模式实现响应式布局。
     - 正文排版单位统一使用 `fp` 以支持系统字体缩放。
